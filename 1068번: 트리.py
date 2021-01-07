@@ -13,7 +13,7 @@ for i in range(n):
     else:
         tree[parents[i]] = [i] #key(self.parent) = value(index)
 
-res = 0
+res = 0 #count number of tree
 if -1 in tree:
     que = [-1]
 else:
