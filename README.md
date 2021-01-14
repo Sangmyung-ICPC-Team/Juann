@@ -4,6 +4,6 @@
    상황에 맞는 언어 익혀서 판단하기
 
 # Historty
-   1week - 10
-   2week - 11
+   1week - 10\n
+   2week - 11\n
    
