@@ -3,7 +3,7 @@
 2. 파이썬, C++, Java 언어로 다양하게 풀어보면서
    상황에 맞는 언어 익혀서 판단하기
 
-# <Historty>
+# Historty
    1week - 10
    2week - 11
    
