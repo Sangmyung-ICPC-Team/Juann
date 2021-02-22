@@ -9,3 +9,4 @@
  3. 3week - 3
  4. 5week - 5
  5. 6week - 3
+ 6. 7week - 3
