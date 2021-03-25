@@ -13,4 +13,5 @@
  7. 8week - 4
  8. 9week - 5
  9. 10week - 3
- 10. 11week - 1
+ 10. 11week - 1 
+ 11. 12week - 6
