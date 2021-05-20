@@ -34,7 +34,6 @@ def excute(temp):
             queue.append(a)
 
 
-
 for _ in range(N):
     temp = []
     temp = sys.stdin.readline().split()
