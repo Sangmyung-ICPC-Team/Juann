@@ -32,7 +32,6 @@ def breath_first_search(length, curr_x, curr_y, goal_x, goal_y):
                 visited[nx][ny] = True
     return 0
 
-
 if __name__ == "__main__":
     test_case = int(input())
     for _ in range(test_case):
