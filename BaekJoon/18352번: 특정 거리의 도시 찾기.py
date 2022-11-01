@@ -5,7 +5,7 @@ f = sys.stdin.readline
 
 # input init
 n, m, k, x = map(int, f().split())
-graph = [[] for _ in range(n+1)]
+graph = dict.fromkeys([i for i in range(n+1)], []) #[[] for _ in range(n+1)]
 distance = [0] * (n+1)
 visited = [False] * (n+1)
 
@@ -20,13 +20,16 @@ def bfs(start):
     q = deque([start])
     visited[start] = True
     distance[start] = 0
+    
     while q:
         now = q.popleft()
+        
         for i in graph[now]:
             if not visited[i]:
                 visited[i] = True
                 q.append(i)
                 distance[i] = distance[now] + 1
+                
                 if distance[i] == k:
                     answer.append(i)
     # False
